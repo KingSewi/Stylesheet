@@ -1,0 +1,32 @@
+/* Web-Chat im Fullscreen anzeigen */
+.bpw-layout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0;
+  z-index: 9999;
+}
+
+/* Hintergrundfarbe auf Weiß festlegen */
+.bpw-layout {
+  background-color: white;
+}
+
+/* Hauptfarbe auf Royal Blue festlegen */
+.bpw-header-container,
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content,
+.bpw-send-button,
+.bpw-button {
+  background-color: royalblue;
+}
+
+/* Textfarbe auf Weiß festlegen */
+.bpw-header-title,
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content,
+.bpw-send-button,
+.bpw-button {
+  color: white;
+}
